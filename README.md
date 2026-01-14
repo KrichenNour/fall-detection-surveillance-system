@@ -76,34 +76,6 @@ The Two-Stream Transformer consists of:
 - **Transformer Encoder**: Processes the sequence with multi-head attention.
 - **Classifier Head**: A simple MLP for binary classification.
 
-Key hyperparameters:
-- Image size: 224x224
-- Patch size: 64
-- Model dimension: 64
-- Number of heads: 4
-- Depth: 1
-- MLP ratio: 2
-
 ## Results
-
-The model achieves the following performance on the validation set:
-
-- **Accuracy**: 87.7%
-- **Precision**: 84.7% (No Fall), 84.8% (Fall)
-- **Recall**: 89.8% (No Fall), 89.5% (Fall)
-- **F1-Score**: 87.1% (No Fall), 87.1% (Fall)
-
 Training history and additional metrics are saved in the `training_results/` directory.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Based on transformer architectures for vision tasks.
-- Uses OpenCV for computer vision preprocessing.
